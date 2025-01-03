@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="home-container">
+            <h2>Welcome to the Chat Application</h2>
+
+            <!-- Chat Interface -->
+            <div class="chat-box">
+                <div class="messages">
+                    <div class="message">
+                        <div class="message-user">User1:</div>
+                        <div class="message-text">Hello! How are you?</div>
+                    </div>
+                    <div class="message">
+                        <div class="message-user">User2:</div>
+                        <div class="message-text">I'm good, thanks! How about you?</div>
+                    </div>
+                    <!-- Add more messages as needed -->
+                </div>
+                <div class="input-container">
+                    <input type="text" id="chat-input" placeholder="Type a message..." />
+                    <button id="send-btn">Send</button>
+                </div>
+            </div>
+
+            <!-- Navigation Button -->
+            <button class="navigate-btn" onclick="window.location.href='profile.html'">Go to Profile</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
